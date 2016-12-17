@@ -1,0 +1,92 @@
+#app-content {
+  margin:5% auto;
+  background-color: Azure;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: 'Chelsea Market', cursive;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+}
+
+ul {
+  border: 1px solid inherit;
+  border-radius: 5px;
+  background-color: white;
+  list-style-type: none;
+}
+.item { margin: 10px; }
+
+#toggleAll {
+  position: relative;
+  bottom: 5px;
+  left: 20px;
+  border: 1px solid #555555;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#toggleAll:hover {
+  background-color: #555555;
+  color: white;
+}
+
+#buttons {
+  margin-left: 10%;
+}
+
+.button {
+  position: relative;
+  bottom: 4px;
+  margin-left: 3%;
+  background-color: #e7e7e7;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  color: black;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+*:focus {outline:none;}
+
+.deleteButton, .editButton, .statusButton {
+  float: left;
+  margin-left: 2%;
+}
+
+.deleteButton:hover, .editButton:hover, .statusButton:hover {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.statusButton {
+  margin-right: 5%;
+}
+.liText {
+  text-decoration: none;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  text-align: left;
+}
+
+input {
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
